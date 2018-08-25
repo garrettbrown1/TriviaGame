@@ -1,0 +1,53 @@
+.master {
+    background-image:url("https://pre00.deviantart.net/a3cf/th/pre/f/2016/307/e/8/alternative_map_of_westeros__game_of_thrones__by_zalringda-dal295u.png");
+    length: 100px;
+    font-family: 'MedievalSharp', cursive;
+    
+}
+
+.header {
+    text-align: center;
+    
+}
+
+.jumbotron {
+
+        background-size: cover;
+        text: white;
+        border: 5px black;
+
+}
+
+#John-Snow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h2 {
+    text-align:center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(2, 40, 2);
+
+}
+
+#start {
+    background-color: black;
+}
+
+#options {
+
+    display-block: cent
+    
+}
+
+
+footer {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}

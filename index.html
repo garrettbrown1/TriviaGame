@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap core CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
+    <!--JavaScript-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <title>Game of Thrones Trivia Game!</title>
+</head>
+
+<body>
+    <div class="master">
+        <!--Music Loop-->
+        <audio controls loop>
+            <source src="./assets/Game-of-thrones.mp3" type="audio/mp3">
+        </audio>
+
+        <!--Master Container-->
+        <div class="container">
+            <div class="header">
+                <h1 class="text-muted">Game of Thrones Trivia Game</h1>
+            </div>
+            <div class="jumbotron">
+                <img id="John-Snow" src="https://media.giphy.com/media/3o85xFGXZQIC29z74Q/giphy.gif">
+                <div class="container">
+                    <div id="game">
+                        <br>
+                        <h2 id="Title">Winter is Coming</h2>
+                        <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+                        <br>
+                        <p id="question" class="lead"></p>
+                    </div>
+                    <div id="results">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="choices" class="text-center">
+                        <button id="start" class="btn btn-info btn-lg">Start Game</button>
+                        <div id="options">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <footer>
+                &copy; Garrett
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
